@@ -23,9 +23,6 @@ body {
   background-position: bottom right 195%, top left 195%;
 }
 /* profile header section */
-main {
-  background-image: url("/images/bg-pattern-top.svg");
-}
 
 .profile-container {
   width: 21.875rem;
