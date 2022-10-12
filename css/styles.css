@@ -1,0 +1,109 @@
+:root {
+  --darkCyan: hsl(185, 75%, 39%);
+  --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+  --darkGrayishBlue: hsl(227, 10%, 46%);
+  --darkGray: hsl(0, 0%, 59%);
+  --fontSize: 18px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--darkCyan);
+  background-image: url("/images/bg-pattern-top.svg"),
+    url("/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom right 195%, top left 195%;
+}
+/* profile header section */
+main {
+  background-image: url("/images/bg-pattern-top.svg");
+}
+
+.profile-container {
+  width: 21.875rem;
+  background: white;
+  border-radius: 0.625rem 0.625rem;
+  height: 23.75rem;
+}
+.profile-header figure img {
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+}
+
+.profile-picture figure img {
+  border-radius: 50%;
+  border: 0.3125rem solid white;
+  position: relative;
+  bottom: 3.125rem;
+}
+
+/* profile content section */
+.profile-content .name {
+  position: relative;
+  bottom: 2.1875rem;
+  color: var(--veryDarkDesaturatedBlue);
+  font-weight: 700;
+  font-size: var(--fontSize);
+}
+.profile-content .age {
+  color: var(--darkGrayishBlue);
+  font-weight: 400;
+}
+.profile-content .location {
+  position: relative;
+  bottom: 1.5625rem;
+  color: var(--darkGrayishBlue);
+  font-size: 0.8125rem;
+}
+hr {
+  border: 0.0625rem solid rgb(241, 241, 241);
+  margin-bottom: 1.25rem;
+}
+/* profile statistics */
+.profile-stats ul {
+  display: inline-block;
+  list-style: none;
+}
+.profile-stats ul li {
+  font-size: var(--fontSize);
+  font-weight: 700;
+  color: var(--veryDarkDesaturatedBlue);
+}
+.profile-stats ul p {
+  font-size: 0.625rem;
+  letter-spacing: 2px;
+  color: var(--darkGray);
+}
+.list-1 {
+  float: left;
+  padding: 0.3125rem 0rem 0 3.125rem;
+}
+.list-2 {
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.list-3 {
+  float: right;
+  padding: 0.3125rem 3.125rem 0 0rem;
+}
+
+/* footer section */
+.attribution {
+  padding-top: 1.25rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and(max-width:375px) {
+}
