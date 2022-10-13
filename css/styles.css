@@ -21,7 +21,7 @@ body {
   background-image: url("../images/bg-pattern-top.svg"),
     url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-position: top 160% right 180%, bottom 180% left 180%;
+  background-position: top 180% right 160%, bottom 195% left 160%;
 }
 /* profile header section */
 
